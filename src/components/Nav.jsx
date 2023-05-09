@@ -45,19 +45,19 @@ function Nav({ counter }){
 					</button>
 					<ul className="menu__links">
 						<li className="menu__list">
-							<a href="/" className="menu__link">
+							<Link to="/" className="menu__link">
 								Home
-							</a>
+							</Link>
 						</li>
 						<li className="menu__list">
-							<a href="/" className="menu__link">
+							<Link to="/books" className="menu__link">
 								Books
-							</a>
+							</Link>
 						</li>
 						<li className="menu__list">
-							<a href="/" className="menu__link">
+							<Link to="/cart" className="menu__link">
 								Cart
-							</a>
+							</Link>
 						</li>
 					</ul>
 				</div>
